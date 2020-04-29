@@ -1019,7 +1019,7 @@ String obtenerHtml () {
     "<!DOCTYPE html>"
     "<html>"
     "<head>"
-    "    <title>Concentrador dbTrust</title>"
+    "    <title>Concentrador Walter</title>"
     "    <meta charset='UTF-8'>"
     "</head>"
     "<style>"
@@ -1183,7 +1183,7 @@ String obtenerHtml () {
     "        document.querySelector('#ssid').value = obj.innerText;"
     "        var ssid = obj.innerText;"
     "        if (ssid.indexOf('OBD_AP') >= 0) {"
-    "            var pass = 'dbTrust01';"
+    "            var pass = 'password01';"
     "            document.querySelector('#pass').value = pass;"
     "        } else {"
     "            document.querySelector('#pass').value = '';"
@@ -1203,9 +1203,9 @@ String obtenerHtml () {
     "                <input id='ssid' class='input1 myinput' name='ssid' type='text'><br>"
     "                <input id='pass' class='input1 myinput' name='pass' type='password'>"
     "                <select class='input1 myinput' style='height: 56px;' name='empresa'>"
-    "                   <option value='dbtrust'>dbTrust</option>"
-    "                   <option value='tenaris'>Tenaris</option>"
-    "                   <option value='cemax'>Cemax</option>"
+    "                   <option value='empresa1'>empresa1</option>"
+    "                   <option value='empresa2'>empresa2</option>"
+    "                   <option value='empresa3'>empresa3</option>"
     "                </select>"
     "            </div>"
     "        </div>"
@@ -1368,7 +1368,7 @@ void verificaActualizacionFirmware() {
     }
   }
   if (stringAuxEmpresa.length() == 0) {
-    stringAuxEmpresa = "dbtrust";
+    stringAuxEmpresa = "empresa1";
   }
 
   Serial.println("URL: " + urlServer + stringAuxEmpresa + "/" + stringAuxSSID);
