@@ -26,8 +26,8 @@ String listaMensajes[50];
 unsigned long syncMsj;
 
 
-String urlServer = "http://34.209.112.168:3000/concentrador/version/soft/";
-String urlService = "http://18.229.201.234:3000/mensajeria/mensaje"; 
+String urlServer = "http://localhost/concentrador/version/soft/";
+String urlService = "http://localhost/mensajeria/mensaje"; 
 
 String comportamientoBornera1 = "";
 const int canalBornera1 = D7;
